@@ -1,13 +1,12 @@
-Version: 2.3.0
+Version: 2.3.2
 
 [CHANGELOG]
-・Added ammo limits for Hunters (Can be toggled in options)
-1 ammo is consumed on a miss, and 1 ammo is restored on a hit.
-No ammo is consumed when shooting at fleeing players.
-If all Hunters run out of ammo, the Hiders win.
-・Increased the maximum number of server tags to 5
-・Fixed an issue where duplicate server tags could be set
+・Added "In-place Rotation." Can be used in conjunction with "Rotation Lock."
+・Changed so that it automatically switches when the spectated target disappears.
 
-・Fixed an issue where the Body Type UI could not be closed when becoming a Hunter
-・Fixed an issue where "Hunter Victory" was displayed under all conditions
-・Fixed an issue where clones did not disappear instantly in modes other than Double Mode
+・Fixed an issue where the nameplate display status would reset.
+・Fixed a translation error on the Korean server creation screen.
+・Reduced lag caused when a large number of players paint at the same time.
+・Fixed an issue where the climbing ring remained visible when transitioning to spectating while it was displayed.
+
+Notice: A new mode, "Reverse-Calculation Chicken Race," will be added later today.
